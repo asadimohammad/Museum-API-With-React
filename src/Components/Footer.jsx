@@ -3,9 +3,9 @@ function Footer() {
     return (
       <footer>
         <div className="footer wrapper">
-          <p>Created by : Mohammad Asadi</p>
-          <a href="https://github.com/asadimohammad">My Github</a>
-          <p>Using the Met Museum Art <a href="https://github.com/metmuseum/openaccess">Collection API</a></p>
+          <p className="created">Created by : Mohammad Asadi</p>
+          <a className="git-add" href="https://github.com/asadimohammad">See My Github</a>
+          <p className="about"><a href="https://github.com/metmuseum/openaccess">API museum</a></p>
       </div>  
       </footer>
     )

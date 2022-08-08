@@ -52,7 +52,6 @@ p {
 
 /* navigation background*/
 nav {
-  background-color: #000000;
   text-align: left;
   color: white;
 }
@@ -93,6 +92,7 @@ span {
 form {
   width: 80%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
@@ -107,20 +107,22 @@ input {
   width: 70%;
   border: 1px solid grey;
   padding-left: 0.75rem;
-  border-radius: 1.5rem 0 0 1.5rem;
+  border-radius: 10px;
 }
 
 button {
-  width: 30%;
+  width: 70%;
   font-family: 'DM Sans', sans-serif;
-  background-color: #723C4F;
+  background-color: #024e6f;
   color: white;
-  border: 1px solid #723C4F; 
-  border-radius: 0 1.5rem 1.5rem 0;
+  margin-top: 10px;
+  border: 1px solid #024e6f; 
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 button:hover, button:focus {
-  background-color: #8c435d;
+  background-color: #032534;
 }
 
 /* main art display */
@@ -141,14 +143,15 @@ main > p {
 
 /* art */
 .artDisplay {
-  background-color: #f2ebe3;
+  width: 100%;
+  background-color: #d7d7d7b4;
   text-align: left;  
   padding: 2rem;
   display: flex;
+  justify-content: center;
   column-gap: 3rem;
   border-radius: 0.5rem;
 }
-
 .imgContainer,
 .description {
   width: 50%;
@@ -238,9 +241,18 @@ div.saved {
   border-top: 1px solid black;
   padding: 1rem;
 }
-
+footer .created {
+  color: #252525;
+  margin-bottom: 25px;
+}
+footer .git-add{
+  color: #252525
+}
+footer .about{
+  font-size: 13px;
+}
 footer p {
-  margin-top: 0.5rem; 
+  margin: 0.5rem; 
 }
 
 footer a {

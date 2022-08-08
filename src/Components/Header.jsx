@@ -8,7 +8,7 @@ const Header = (prop) => {
         <Navigation />
         <div className="header wrapper">
           <h1>
-            Met Highlights
+            Search in Museum
           </h1>
           <form onSubmit={prop.submit}>
             <label className="sr-only">Search by keyword : </label>
