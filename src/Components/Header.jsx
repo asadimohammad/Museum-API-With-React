@@ -1,5 +1,5 @@
 // App Header
-import Navigation from "./Navigation.js";
+import Navigation from "./Navigation";
 
 const Header = (prop) => {
   return (
