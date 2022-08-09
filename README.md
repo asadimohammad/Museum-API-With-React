@@ -1,4 +1,4 @@
-project Api-Museum with React js
+project Museum-Api with React js
 
 ● Name: Mohammad Asadi ● Email: 67.asadi@gmail.com ● Position: Frontend Engineer
 
