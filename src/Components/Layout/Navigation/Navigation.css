@@ -1,0 +1,11 @@
+nav{
+    background-color: black;
+    text-align: center;
+    width: 90vw;
+    padding: 2px 25px;
+}
+nav p a{
+    color: #e7e7e7;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
